@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  16 SEP 2023 16:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  16 SEP 2023 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,34 +403,35 @@ LaTeX Font Warning: Font shape `TU/SimSun(1)/b/n' undefined
 (Font)              using `TU/SimSun(1)/m/n' instead on input line 19.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
+[2]
 Missing character: There is no 𝑆 (U+1D446) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑐 (U+1D450) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑎 (U+1D44E) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝐿 (U+1D43F) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑒 (U+1D452) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑑 (U+1D451) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
-[2] [3] [4] [5] (./linkPrediction.aux)
+[3] [4] [5] (./linkPrediction.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8288 strings out of 476683
- 234436 string characters out of 5807576
- 1877012 words of memory out of 5000000
- 28436 multiletter control sequences out of 15000+600000
- 517555 words of font info for 73 fonts, out of 8000000 for 9000
+ 8292 strings out of 476683
+ 234544 string characters out of 5807576
+ 1871012 words of memory out of 5000000
+ 28439 multiletter control sequences out of 15000+600000
+ 517563 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,6n,97p,943b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
