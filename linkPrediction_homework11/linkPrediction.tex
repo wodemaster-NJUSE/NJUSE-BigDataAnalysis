@@ -17,7 +17,7 @@
 \maketitle
 
 \section*{作业任务}
-\begin{enumerate}
+\begin{itemize}
     \item 从代码（自己实现or复现）、数据集（直接获取或自己处理得到）两个角度权衡是否选择某个link prediction的工作。。
     \item 论文摘要abstract和introduction翻译
     \item 问题描述。
@@ -26,37 +26,80 @@
     \item 对比方法及这些对比方法的引用论文出处
     \item 结果
     \item 打包提交code、运行配置说明（数据集太大的可以是开放链接，需描述）
-\end{enumerate}
-\subsection*{实验难点：}
+\end{itemize}
+\section*{实验难点：}
 \begin{itemize}
     \item 论文为全英文描述，阅读难度提升
     \item 论文实验复现环境搭配
     \item 相关神经网络、机器学习、图论的知识暂且未知
 \end{itemize}
 
-\subsection*{论文选择：Sampling Enclosing Subgraphs for Link Prediction}
-链接： \verb|https://arxiv.org/pdf/2206.12004.pdf|
+\textbf{ABSTRACT
+Link prediction is a fundamental problem for graph-structured data
+(e.g., social networks, drug side-effect networks, etc.). Graph neural
+networks have offered robust solutions for this problem, specifically by learning the representation of the subgraph enclosing the
+target link (i.e., pair of nodes). However, these solutions do not
+scale well to large graphs as extraction and operation on enclosing subgraphs are computationally expensive, especially for large
+graphs. This paper presents a scalable link prediction solution, that
+we call ScaLed, which utilizes sparse enclosing subgraphs to make
+predictions. To extract sparse enclosing subgraphs, ScaLed takes
+multiple random walks from a target pair of nodes, then operates
+on the sampled enclosing subgraph induced by all visited nodes.
+By leveraging the smaller sampled enclosing subgraph, ScaLed
+can scale to larger graphs with much less overhead while maintaining high accuracy. ScaLed further provides the flexibility to
+control the trade-off between computation overhead and accuracy.
+Through comprehensive experiments, we have shown that ScaLed
+can produce comparable accuracy to those reported by the existing subgraph representation learning frameworks while being less
+computationally demanding.}\\
 
+\textbf{摘要：链接预测是图结构数据（例如社交网络、药物副作用网络等）的一个基本问题。图神经网络为这个问题提供了鲁棒的解决方案，尤其是通过对包含目标链接（即节点对）的子图的表示的学习。然而，这些解决方案不能很好地扩展到大型图，因为对封闭子图的提取和操作在计算上是昂贵的。本文提出了一种可扩展的链接预测解决方案，我们称之为ScaLed，它利用稀疏封闭子图进行预测。为了提取稀疏封闭子图，ScaLed从目标节点对开始进行多次随机地游走，然后对所有访问节点产生的采样封闭子图进行操作。通过利用较小的采样封闭子图，ScaLed可以在保持高精度的同时以更少的开销扩展到更大的图。通过全面的实验，我们表明ScaLed可以达到那些现有的子图表示学习框架所报告的精度，同时拥有较低的计算要求。}\\
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\textbf{INTRODUCTION
+Graph-structured data such as user interactions, collaborations,
+protein-protein interactions, drug-drug interactions are prevalent in
+natural and social sciences. Link prediction—a fundamental problem
+on graph-structured data—intends to quantify the likelihood of a
+link (or interaction) occurring between a pair of nodes (e.g., proteins,
+drugs, etc.). Link prediction has many diverse applications such as
+predicting drug side effects, drug-repurposing [14], understanding
+molecule interactions [18], friendship recommendation [9], and
+recommender systems [39].
+Many solutions to link prediction problem [24, 26–28, 35] has
+been proposed ranging from simple heuristics (e.g., common neighbors, Adamic-Adar [1], Katz [19]) to graph neural networks (GNNs)
+[5, 6, 17, 21, 30, 45]. Among these solutions, GNNs [15, 36, 48]
+have emerged as the widely-accepted and successful solution for
+learning rich latent representations of graph data to tackle link
+prediction problems. The early GNNs focused on shallow encoders
+[13, 32] in which the latent nodes’ representations was first learnt
+through a sequence of random walks, and then a likelihood of a
+link is determined by combining its two-end nodes’ latent representations. However, these shallow encoders were limited by not
+incorporating nodal features and their incompatibility with inductive settings as they require that all nodes are present for training.
+These two challenges were (partially) addressed with the emergence of message-passing graph neural networks [16, 22, 37]. These
+advancements motivate the research on determining and extending
+the expressive power of GNNs [3, 12, 40–42, 46] for all downstream
+tasks of link prediction, node classification, and graph classification.
+For link prediction, subgraph-based representation learning (SGRL)
+methods [5, 6, 25, 30, 45]—by learning the enclosing subgraphs
+around the two-end nodes rather than independently learning two
+end-node’s embedding—have improved GNNs expressive power,
+and offered state-of-the-art solutions. However, these solutions suffer from the lack of scalability, thus preventing them to be applied
+to large-scale graphs. This is primarily due to the computation
+overhead in extracting, preprocessing, and learning (large) enclosing subgraphs for any pair of nodes. We focus on addressing this
+scalability issue.
+Contribution. We introduce Sampling Enclosing Subgraph for Link
+Prediction (ScaLed) to extend SGRL methods and enhance their scalability. The crux of ScaLed is to sample enclosing subgraphs using
+a sequence of random walks. This sampling reduces the computational overhead of large subgraphs while maintaining their key
+structural information. 𝑆𝑐𝑎𝐿𝑒𝑑 can be integrated into any GNN,
+and also offers parallelizability and model compression that can be
+exploited for large-scale graphs. Furthermore, the two hyperparameters, walk length and number of walks, in ScaLed provides a way
+to control the trade-off between scalability and accuracy, if needed.
+Our extensive experiments on real-world datasets demonstrate that
+ScaLed produces comparable results to the state-of-the-art methods
+(e.g, SEAL [45]) in link prediction, but requiring magnitudes less
+training data, time, and memory. ScaLed combines the benefits of
+SGRL framework and random walks for link prediction.
+}\\
+\textbf{引言：用户交互协作、蛋白质间相互作用、药物间相互作用等图结构数据在自然科学和社会科学中普遍存在。链接预测——图结构数据的一个基本问题——旨在量化一对节点（例如蛋白质、药物等）之间产生链接（或交互）的可能性。链接预测有许多不同的应用，例如预测药物副作用、药物重新利用、理解分子间的相互作用和推荐系统。人们已经提出了许多链接预测问题的解决方案，从简单的启发式方法（例如共同邻居、Adamic-Adar、Katz）到图神经网络（GNNs）。在这些解决方案中，GNN已经成为了学习图数据的丰富潜在表示以解决链接预测问题的前景良好的解决方案。早期的GNN专注于浅层编码器，其中潜在节点的表示首先通过一系列随机游走来获取，然后通过组合其两端节点的潜在表示来确定链接的可能性。然而，这些浅层编码器因未结合节点特征且与感应设置不兼容而受到限制。这两个问题已（部分）通过消息传递图神经网络得到解决。这些进步激发了关于确定和扩展GNN对于链路预测、节点分类和图分类等所有下游任务的表达能力的研究。对于链接预测，基于子图的表示学习(SGRL)方法——通过学习两端节点周围的封闭子图，而不是独立学习两端节点的嵌入——提高了 GNN 的表达能力，并提供了最先进的解决方案。然而，这些解决方案缺乏大规模图的可扩展性。这主要是由于提取、预处理和学习（大）封闭子图的计算开销。我们引入了用于链路预测的采样封闭子图（ScaLed）来扩展 SGRL 方法并增强其可扩展性。ScaLed使用一系列随机游走对封闭子图进行采样。这种采样减少了大型子图的计算开销，同时保留了关键的结构信息。ScaLed可以集成到任何GNN中，并且还提供了可用于大规模图的并行性和模型压缩。如果需要，ScaLed 中的两个超参数（步行长度和步行次数）提供了一种控制可扩展性和准确性之间的权衡的方法。我们对真实世界数据集的广泛实验表明，ScaLed在链路预测中产生的结果与最先进的方法（例如 SEAL）相当，但需要的训练数据、时间和内存要少得多。}
+\section*{问题描述}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  16 SEP 2023 14:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  16 SEP 2023 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,42 +403,35 @@ LaTeX Font Warning: Font shape `TU/SimSun(1)/b/n' undefined
 (Font)              using `TU/SimSun(1)/m/n' instead on input line 19.
 
 
-Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
-(fontspec)             doesn't exist).
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
-
-Package fontspec Info: Could not resolve font "FangSong/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+ []
 
 [1
 
-] (./linkPrediction.aux)
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+Missing character: There is no 𝑆 (U+1D446) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑐 (U+1D450) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑎 (U+1D44E) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝐿 (U+1D43F) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑒 (U+1D452) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
+[2] [3] [4] [5] (./linkPrediction.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8192 strings out of 476683
- 227147 string characters out of 5807576
- 1853012 words of memory out of 5000000
- 28330 multiletter control sequences out of 15000+600000
- 517595 words of font info for 78 fonts, out of 8000000 for 9000
+ 8288 strings out of 476683
+ 234436 string characters out of 5807576
+ 1877012 words of memory out of 5000000
+ 28436 multiletter control sequences out of 15000+600000
+ 517555 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,6n,97p,393b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,97p,943b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on linkPrediction.pdf (1 page).
+Output written on linkPrediction.pdf (5 pages).
