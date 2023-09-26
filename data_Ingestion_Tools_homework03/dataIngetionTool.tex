@@ -1,0 +1,96 @@
+\documentclass{article}
+
+\usepackage{amsmath} % 用于数学公式
+\usepackage{graphicx} % 用于插入图片
+\usepackage{lipsum} % 用于生成虚拟文本
+\usepackage{ctex} % 导入 ctex 包以支持中文
+\usepackage{titlesec} % 导入 titlesec 包以定制标题样式
+\usepackage{fontspec} % 用于设置中文字体
+
+\setmainfont{SimSun} % 设置中文字体，SimSun 为宋体的系统字体
+
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{float}
+
+\title{数据流工具实验报告}
+\author{程智镝}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{涵盖工具}
+
+本实验涵盖以下数据流工具：
+
+\begin{enumerate}
+    \item Apache Kafka
+    \item AWS Kinesis
+    \item Apache NiFi
+    \item Flume
+\end{enumerate}
+
+\section*{实验任务}
+\begin{enumerate}
+
+    \item 任务一：使用 Apache Kafka 进行数据流
+      \begin{itemize}
+        \item 要求：安装 Apache Kafka。
+        \item 任务：生产和消费一个简单的消息。
+        \item 验证：确认 Kafka 主题中的消息。
+      \end{itemize}
+      
+    \item 任务二：使用 AWS Kinesis 进行实时数据摄取
+      \begin{itemize}
+        \item 要求：在 AWS 控制台中创建一个 Kinesis 流。
+        \item 任务：使用 AWS SDK 发送一批消息。
+        \item 验证：在 Kinesis 控制台中监控传入数据。
+      \end{itemize}
+      
+    \item 任务三：使用 Apache NiFi 进行数据流管理
+      \begin{itemize}
+        \item 要求：安装 Apache NiFi。
+        \item 任务：创建一个简单的数据流，将数据从平面文件移动到数据库。
+        \item 验证：确认数据库中的记录。
+      \end{itemize}
+      
+    \item 任务四：使用 Flume 收集日志
+      \begin{itemize}
+        \item 要求：安装 Flume。
+        \item 任务：配置 Flume 以收集日志并将其存储在 HDFS 中。
+        \item 验证：确认 HDFS 中存储的日志。
+      \end{itemize}
+
+\end{enumerate}
+\section*{实验难点}
+\begin{itemize}
+    \item 未使用过该配置
+    \item 构造数据
+    \item 我使用的是阿里云而不是AWS，配置上可能会有差距
+\end{itemize}
+\section*{任务一}
+% \textbf(任务流程参照： \verb| https://blog.csdn.net/sun_hong_likeIT/article/details/123502688|)
+% 下载apache kafka：sudo wget \verb|https://mirrors.tuna.tsinghua.edu.cn/apache/kafka/3.5.1/kafka_2.12-3.5.1.tgz|
+% 这里使用的是清华镜像网站，比教程给的网站更好用。
+
+% 使用 bin/zookeeper-server-start.sh -daemon config/zookeeper.properties 以守护进程启动)
+% 启动kafa：bin/kafka-server-start.sh config/server.properties &
+% 新建终端创建主题：bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic test --partitions 2 --replication-factor 1
+
+% 在主题终端发送消息：bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+% 服务终端接收到消息：bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+
+% 消息生产和消费过程：
+
+\section*{任务二}
+由于我使用的不是AWS，我在阿里云上使用了数据总线来进行平替：\verb|https://www.aliyun.com/product/bigdata/datahub|
+\section*{任务三}
+nifi安装：wget https://dlcdn.apache.org/nifi/1.23.2/nifi-1.23.2-source-release.zip\\
+解压：unzip nifi-1.23.2-source-release.zip
+用官网会很慢，建议使用国内镜像
+\section*{任务四}
+安装 Flume:https://downloads.apache.org/flume/1.11.0/apache-flume-1.11.0-bin.tar.gz
+\end{document}
