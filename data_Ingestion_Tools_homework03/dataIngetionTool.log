@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  26 SEP 2023 16:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  1 OCT 2023 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,83 +364,83 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (./dataIngetionTool.aux)
 \openout1 = `dataIngetionTool.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 21.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 21.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 21.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 21.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 21.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 21.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 21.
-LaTeX Font Info:    Redeclaring math accent \check on input line 21.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 21.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 21.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 21.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 21.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 20.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 20.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 20.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 20.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 20.
+LaTeX Font Info:    Redeclaring math accent \check on input line 20.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 20.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 21.
+(Font)              `operators' in the math version `normal' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/SimSun(1)/m/n on input line 21.
+(Font)                  OT1/cmr/m/n --> TU/SimSun(1)/m/n on input line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 21.
+(Font)              `operators' in the math version `bold' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/SimSun(1)/m/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> TU/SimSun(1)/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/SimSun(1)/m/n --> TU/SimSun(1)/m/n on input line 21.
+(Font)                  TU/SimSun(1)/m/n --> TU/SimSun(1)/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/SimSun(1)/m/it on input line 21.
+(Font)                  OT1/cmr/m/it --> TU/SimSun(1)/m/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/SimSun(1)/b/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> TU/SimSun(1)/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 21.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/SimSun(1)/m/n --> TU/SimSun(1)/b/n on input line 21.
+(Font)                  TU/SimSun(1)/m/n --> TU/SimSun(1)/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/SimSun(1)/b/it on input line 21.
+(Font)                  OT1/cmr/bx/it --> TU/SimSun(1)/b/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 21.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 20.
 \c@lstlisting=\count314
 
 
 LaTeX Font Warning: Font shape `TU/SimSun(1)/b/n' undefined
-(Font)              using `TU/SimSun(1)/m/n' instead on input line 25.
+(Font)              using `TU/SimSun(1)/m/n' instead on input line 24.
 
 [1
 
@@ -469,27 +469,89 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Overfull \hbox (8.7138pt too wide) in paragraph at lines 91--94
-[]\TU/SimSun(1)/m/n/10.53937 nifi \TU/SimSun(0)/m/n/10.53937 安 装：| \TU/SimSun(1)/m/n/10.53937 wget https://dlcdn.apache.org/nifi/1.23.2/nifi-1.23.2-
+Overfull \hbox (93.2154pt too wide) in paragraph at lines 77--78
+[]\TU/SimSun(0)/b/n/10.53937 任 务 流 程 参 照：| [][]\TU/lmtt/m/n/10.53937 https://blog.csdn.net/sun_hong_likeIT/article/details/123502688 
  []
 
 
-Overfull \hbox (22.11955pt too wide) in paragraph at lines 95--96
-[]\TU/SimSun(0)/m/n/10.53937 安 装 \TU/SimSun(1)/m/n/10.53937 Flume:https://downloads.apache.org/flume/1.11.0/apache-flume-
+Overfull \hbox (242.15907pt too wide) in paragraph at lines 79--80
+[]\TU/SimSun(0)/m/n/10.53937 下 载 \TU/SimSun(1)/b/n/10.53937 Apache Kafka\TU/SimSun(0)/m/n/10.53937 ：| \TU/lmtt/m/n/10.53937 sudo wget https://mirrors.tuna.tsinghua.edu.cn/apache/kafka/3.5.1/kafka_2.12-3.5.1.tgz 
  []
 
-[2] [3] (./dataIngetionTool.aux)
+
+Overfull \hbox (60.32632pt too wide) in paragraph at lines 83--84
+[]\TU/SimSun(0)/m/n/10.53937 使 用 \TU/lmtt/m/n/10.53937 bin/zookeeper-server-start.sh -daemon config/zookeeper.properties
+ []
+
+
+Overfull \hbox (7.83379pt too wide) in paragraph at lines 85--86
+[]\TU/SimSun(0)/m/n/10.53937 启 动 \TU/SimSun(1)/b/n/10.53937 Kafka\TU/SimSun(0)/m/n/10.53937 ：| \TU/lmtt/m/n/10.53937 bin/kafka-server-start.sh config/server.properties
+ []
+
+
+Overfull \hbox (57.80972pt too wide) in paragraph at lines 87--88
+[]\TU/SimSun(0)/m/n/10.53937 新 建 终 端 创 建 主 题：| \TU/lmtt/m/n/10.53937 bin/kafka-topics.sh --bootstrap-server localhost:9092
+ []
+
+
+Overfull \hbox (13.0174pt too wide) in paragraph at lines 89--90
+[]\TU/SimSun(0)/m/n/10.53937 在 主 题 终 端 发 送 消 息：| \TU/lmtt/m/n/10.53937 bin/kafka-console-producer.sh --broker-list
+ []
+
+
+Overfull \hbox (40.68323pt too wide) in paragraph at lines 91--92
+[]\TU/SimSun(0)/m/n/10.53937 服 务 终 端 接 收 到 消 息：| \TU/lmtt/m/n/10.53937 bin/kafka-console-consumer.sh --bootstrap-server
+ []
+
+File: mission1.1.jpg Graphic file (type bmp)
+<mission1.1.jpg>
+File: mission1.2.jpg Graphic file (type bmp)
+<mission1.2.jpg>
+
+Overfull \hbox (836.91277pt too wide) in paragraph at lines 96--98
+ [][] 
+ []
+
+
+Overfull \hbox (1004.78955pt too wide) in paragraph at lines 96--98
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 163.10487pt on input line 99.
+
+[2] [3]
+Overfull \hbox (147.48213pt too wide) in paragraph at lines 107--109
+\TU/SimSun(1)/b/n/10.53937 NiFi \TU/SimSun(0)/m/n/10.53937 安 装：| \TU/lmtt/m/n/10.53937 wget https://mirrors.tuna.tsinghua.edu.cn/apache/nifi/1.23.2/nifi-1.23.2-bin.zip 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Overfull \hbox (20.30536pt too wide) in paragraph at lines 122--130
+[]\TU/SimSun(0)/m/n/10.53937 参 考：| \TU/SimSun(1)/b/n/10.53937 https://www.cnblogs.com/j-y-s/p/16018612.html \TU/SimSun(0)/m/n/10.53937 安 装 \TU/SimSun(1)/b/n/10.53937 Flume:\TU/lmtt/m/n/10.53937 wget
+ []
+
+
+Overfull \hbox (136.38542pt too wide) in paragraph at lines 122--130
+\TU/lmtt/m/n/10.53937 https://mirrors.tuna.tsinghua.edu.cn/apache/flume/1.11.0/apache-flume-1.11.0-bin.tar.gz
+ []
+
+[4] (./dataIngetionTool.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9500 strings out of 476683
- 243434 string characters out of 5807576
- 1853012 words of memory out of 5000000
- 29613 multiletter control sequences out of 15000+600000
- 517587 words of font info for 77 fonts, out of 8000000 for 9000
+ 9607 strings out of 476683
+ 249370 string characters out of 5807576
+ 1855012 words of memory out of 5000000
+ 29714 multiletter control sequences out of 15000+600000
+ 517603 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,6n,97p,395b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,97p,433b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dataIngetionTool.pdf (3 pages).
+Output written on dataIngetionTool.pdf (4 pages).
