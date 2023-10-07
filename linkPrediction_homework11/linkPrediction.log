@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  25 SEP 2023 19:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  7 OCT 2023 11:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -417,41 +417,29 @@ LaTeX Font Warning: Font shape `TU/SimSun(1)/b/n' undefined
 (Font)              using `TU/SimSun(1)/m/n' instead on input line 20.
 
 
-Overfull \hbox (8.7138pt too wide) in paragraph at lines 38--47
+Overfull \hbox (8.7138pt too wide) in paragraph at lines 38--48
 []\TU/SimSun(0)/m/n/10.53937 依 赖 下 载：| \TU/SimSun(1)/m/n/10.53937 cuda=10.2 pytorch=1.12.1 torch-cluster=1.6.0+pt112cu102
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 51--59
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-[2]
-Missing character: There is no 𝑆 (U+1D446) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑐 (U+1D450) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑎 (U+1D44E) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝐿 (U+1D43F) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑒 (U+1D452) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font SimSun/OT:script=latn;language=dflt;mapping=tex-text;!
-[3] [4] [5] [6] [7] (./linkPrediction.aux)
+[2] [3] [4] (./linkPrediction.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8457 strings out of 476683
- 239300 string characters out of 5807576
- 1874012 words of memory out of 5000000
- 28586 multiletter control sequences out of 15000+600000
+ 8346 strings out of 476683
+ 231855 string characters out of 5807576
+ 1870012 words of memory out of 5000000
+ 28475 multiletter control sequences out of 15000+600000
  521653 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,8n,97p,943b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,8n,97p,393b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on linkPrediction.pdf (7 pages).
+Output written on linkPrediction.pdf (4 pages).
