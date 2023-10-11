@@ -7,6 +7,9 @@
 \usepackage{titlesec} % 导入 titlesec 包以定制标题样式
 \usepackage{fontspec} % 用于设置中文字体
 \usepackage{amsfonts} 
+\usepackage{amsmath} % 提供 \text 和 \tanh 命令
+\usepackage{bm}      % 提供 \bm 命令用于粗体
+
 
 \setmainfont{SimSun} % 设置中文字体，SimSun 为宋体的系统字体
 
@@ -36,14 +39,16 @@
 \end{itemize}
 \section*{实验准备工作}
 依赖下载：
-cuda=10.2
-pytorch=1.12.1
-torch-cluster=1.6.0+pt112cu102
-torch-scatter=2.1.0+pt112cu102
-torch-sparse=0.6.16+pt112cu102
-dgl-cu102=0.9.1.post1
-ogb=1.3.5
-numpy=1.20.2
+\begin{itemize}
+\item cuda=10.2
+\item pytorch=1.12.1
+\item torch-cluster=1.6.0+pt112cu102
+\item torch-scatter=2.1.0+pt112cu102
+\item torch-sparse=0.6.16+pt112cu102
+\item dgl-cu102=0.9.1.post1
+\item ogb=1.3.5
+\item numpy=1.20.
+\end{itemize}
 \section*{论文：GIPA: A General Information Propagation
 Algorithm for Graph Learning}
 \subsection*{abstract和introduction翻译}
@@ -90,6 +95,28 @@ $E$ 为图的边集合，而张量 $A \in \mathbb{R}^{n \times n \times d}$
 包含了所有节点的属性（例如，用户资料）和边的属性（例如，交互作用的强度或类型）。对于每个节点 $v \in V$，它的属性（如果有的话）存储在对角组件 $A_{vv}$ 中，而非对角线组件 $A_{uv}$ 则可以包含边 $(u, v)$ 的属性，如果 $(u, v) \in E$；否则 $A_{uv} = 0$。
 \subsection*{链路预测问题}
 在链路预测中的目标是根据观察到的张量 $A$ 推断目标节点对之间是否存在边。学习问题是找到一个似然（或评分）函数 $f$，它为每对目标节点$(u, v) \notin E$ 分配交互似然性（分数） $\hat{A}_{uv}$，这些节点之间的关系未被观察到。较大的 $\hat{A}_{uv}$ 表示 $(u, v)$ 形成链接或缺失链接的可能性较高。函数 $f$ 可以表示为 $\hat{A}_{uv} = f(u, v, A|\Theta)$，其中 $\Theta$ 表示模型参数。
-
-
+\section*{释义}
+\begin{itemize}
+    \item  bit-wise correlation module:
+    \item feature-wise correlation module:
+    \item attention weights:
+    \item  one-hot vector:
+    \item   滤波:
+    \item edge features:
+    \item edge information:
+    \item information weighted aggregation :
+    \item dense feature:
+    \item  sparse feature:
+    \item align- ment score：
+    \item 异构图：
+    \item 聚合函数、更新函数：
+\end{itemize}
+\section*{评价指标和计算公式}
+加法注意力计算：向量q、k，u为注意力向量。
+$$ \text{score}(q, k) = \mathbf{u}^T \tanh(\mathbf{W}[\mathbf{q}, \mathbf{k}]) $$
+$\alpha_{q,k}$ 为注意力权重,是通过使用 softmax 函数在所有 q，k 值上归一化$\text{scor}{\tilde{e}_{q,k}}$
+来计算的\\
+自我关注计算任意 q 和 k 之间的对齐分数:\\
+GIPA忽略噪声传播： GIPA 引入了两个基于 MLP 的相关模块，比特方式相关模块和特
+征方式相关模块，以实现细粒度的选择性信息传播并利用边缘信息。
 \end{document}
