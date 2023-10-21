@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  21 OCT 2023 10:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.7)  21 OCT 2023 10:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -338,7 +338,8 @@ Package fontspec Info: Font family 'SimSun(1)' created for font 'SimSun' with
 (fontspec)             <->"SimSun/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (./linkPrediction.aux)
+
+No file linkPrediction.aux.
 \openout1 = `linkPrediction.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -414,7 +415,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 20.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
- (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
@@ -459,7 +460,7 @@ Overfull \hbox (185.08273pt too wide) in paragraph at lines 48--49
 File: 服务器配置.png Graphic file (type bmp)
 <服务器配置.png>
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 67--75
+Underfull \hbox (badness 10000) in paragraph at lines 69--77
 
  []
 
@@ -472,44 +473,44 @@ File: 框架图.png Graphic file (type bmp)
 File: 嵌入层优化.png Graphic file (type bmp)
 <嵌入层优化.png>
 
-Overfull \hbox (169.58473pt too wide) in paragraph at lines 203--203
+Overfull \hbox (169.58473pt too wide) in paragraph at lines 205--205
 []\TU/lmtt/m/n/10.53937 def evaluate(args, graph, model, labels, train_idx, val_idx, test_idx, criterion, evaluator):[] 
  []
 
 
-Overfull \hbox (208.3169pt too wide) in paragraph at lines 203--203
+Overfull \hbox (208.3169pt too wide) in paragraph at lines 205--205
 []        \TU/lmtt/m/n/10.53937 for batch_nodes, subgraph in random_subgraph(args.eval_partition_num, graph, shuffle=False):[] 
  []
 
 
-Overfull \hbox (86.58716pt too wide) in paragraph at lines 203--203
+Overfull \hbox (86.58716pt too wide) in paragraph at lines 205--205
 []    \TU/lmtt/m/n/10.53937 train_loss = criterion(preds[train_idx], labels[train_idx].float()).item()[] 
  []
 
 [9
 
 ]
-Overfull \hbox (53.38814pt too wide) in paragraph at lines 203--203
+Overfull \hbox (53.38814pt too wide) in paragraph at lines 205--205
 []    \TU/lmtt/m/n/10.53937 val_loss = criterion(preds[val_idx], labels[val_idx].float()).item()[] 
  []
 
 
-Overfull \hbox (69.98764pt too wide) in paragraph at lines 203--203
+Overfull \hbox (69.98764pt too wide) in paragraph at lines 205--205
 []    \TU/lmtt/m/n/10.53937 test_loss = criterion(preds[test_idx], labels[test_idx].float()).item()[] 
  []
 
 
-Overfull \hbox (9.12282pt too wide) in paragraph at lines 203--203
+Overfull \hbox (9.12282pt too wide) in paragraph at lines 205--205
 []    \TU/lmtt/m/n/10.53937 train_score = evaluator(preds[train_idx], labels[train_idx])[] 
  []
 
 
-Overfull \hbox (125.31937pt too wide) in paragraph at lines 203--203
+Overfull \hbox (125.31937pt too wide) in paragraph at lines 205--205
 []    \TU/lmtt/m/n/10.53937 return train_score, val_score, test_score, train_loss, val_loss, test_loss, preds[] 
  []
 
 
-Overfull \hbox (3.78093pt too wide) in paragraph at lines 211--212
+Overfull \hbox (3.78093pt too wide) in paragraph at lines 213--214
 []\TU/SimSun(0)/m/n/10.53937 使 用 预 测 值 计 算 训 练、|  验 证 和 测 试 集 的 损 失  |（\TU/lmtt/m/n/10.53937 loss\TU/SimSun(0)/m/n/10.53937 ）|  和 评 估 指 标  |（\TU/lmtt/m/n/10.53937 score\TU/SimSun(0)/m/n/10.53937 ） 。| 
  []
 
@@ -517,59 +518,59 @@ Overfull \hbox (3.78093pt too wide) in paragraph at lines 211--212
 File: 表现对比.png Graphic file (type bmp)
 <表现对比.png>
 
-Overfull \hbox (2471.38304pt too wide) in paragraph at lines 233--233
+Overfull \hbox (2471.38304pt too wide) in paragraph at lines 235--235
 []\TU/lmtt/m/n/10.53937 ./train_gipa.py --root ./ --train-partition-num 6 --eval-partition-num 2 --eval-times 1 --lr 0.01 --advanced-optimizer --n-epochs 1500 --n-heads 20 --n-layers 6 --dropout 0.4 --n-hidden 50 --input-drop 0.4 --edge-drop 0.1 --edge-agg-mode single_softmax --edge-att-act none --norm none --edge-emb-size 16 --gpu 0 --first-hidden 225 --use-sparse-fea --sparse-encoder log --n-deep-layers 6 --n-deep-hidden 200 --deep-drop-out 0.4 --deep-input-drop 0.1 --model gipa_deep_wide --log-file-name=run_default_wide_deep[] 
  []
 
 
-Overfull \hbox (3721.87909pt too wide) in paragraph at lines 233--233
+Overfull \hbox (3721.87909pt too wide) in paragraph at lines 235--235
 []\TU/lmtt/m/n/10.53937 Namespace(model='gipa_deep_wide', root='./', cpu=False, gpu=0, seed=0, n_runs=10, n_epochs=1500, eval_times=1, advanced_optimizer=True, train_partition_num=6, eval_partition_num=2, no_attn_dst=False, n_heads=20, norm='none', disable_fea_trans_norm=False, edge_att_act='none', edge_agg_mode='single_softmax', lr=0.01, n_layers=6, n_hidden=50, dropout=0.4, input_drop=0.4, edge_drop=0.1, eval_every=5, log_every=5, save_pred=False, log_file_name='run_default_wide_deep', first_hidden=225, edge_emb_size=16, wd=0, use_sparse_fea=True, sparse_encoder='log', input_norm=False, first_layer_norm=False, first_layer_act='relu', feature_drop=0.0, last_layer_drop=-1.0, n_deep_layers=6, n_deep_hidden=200, deep_drop_out=0.4, deep_input_drop=0.1)[] 
  []
 
 
-Overfull \hbox (816.96544pt too wide) in paragraph at lines 233--233
+Overfull \hbox (816.96544pt too wide) in paragraph at lines 235--235
 []\TU/lmtt/m/n/10.53937 Val scores: [0.9464610703119242, 0.945959865433455, 0.9422161149879379, 0.9481785285003014, 0.9472916867828222, 0.946567618075345, 0.9481510717785814, 0.9447355638872826, 0.9459294604587943, 0.9453477199621528][] 
  []
 
 
-Overfull \hbox (833.56496pt too wide) in paragraph at lines 233--233
+Overfull \hbox (833.56496pt too wide) in paragraph at lines 235--235
 []\TU/lmtt/m/n/10.53937 Test scores: [0.8908229980036476, 0.8904088193170103, 0.8885491607462922, 0.8900243103672817, 0.8902722394523298, 0.8907890818798613, 0.8912160152904612, 0.8909373211380868, 0.8924123063424335, 0.8888346735752816][] 
  []
 
 
-Overfull \hbox (69.98785pt too wide) in paragraph at lines 250--250
+Overfull \hbox (69.98785pt too wide) in paragraph at lines 252--252
 []   \TU/FangSong(0)/m/n/10.53937 宽 度 部 分 \TU/lmtt/m/n/10.53937 :  \TU/FangSong(0)/m/n/10.53937 模 型 有 一 个 宽 度 部 分 ， 具 有 参 数 如  \TU/lmtt/m/n/10.53937 first_hidden \TU/FangSong(0)/m/n/10.53937 、 \TU/lmtt/m/n/10.53937 edge_emb_size  \TU/FangSong(0)/m/n/10.53937 等 。 [] 
  []
 
 
-Overfull \hbox (158.51857pt too wide) in paragraph at lines 250--250
+Overfull \hbox (158.51857pt too wide) in paragraph at lines 252--252
 []   \TU/FangSong(0)/m/n/10.53937 深 度 部 分 \TU/lmtt/m/n/10.53937 :  \TU/FangSong(0)/m/n/10.53937 模 型 有 一 个 深 度 部 分 ， 具 有 参 数 如  \TU/lmtt/m/n/10.53937 n_deep_layers \TU/FangSong(0)/m/n/10.53937 、 \TU/lmtt/m/n/10.53937 n_deep_hidden \TU/FangSong(0)/m/n/10.53937 、 \TU/lmtt/m/n/10.53937 deep_drop_out  \TU/FangSong(0)/m/n/10.53937 等 。 [] 
  []
 
 [11
 
 ]
-Overfull \hbox (219.38335pt too wide) in paragraph at lines 250--250
+Overfull \hbox (219.38335pt too wide) in paragraph at lines 252--252
 []  \TU/lmtt/m/n/10.53937 Dropout:  \TU/FangSong(0)/m/n/10.53937 应 用 了 各 种 不 同 的 丢 失 率  \TU/lmtt/m/n/10.53937 (dropout, input_drop, edge_drop, deep_drop_out, deep_input_drop \TU/FangSong(0)/m/n/10.53937 等 \TU/lmtt/m/n/10.53937 ) \TU/FangSong(0)/m/n/10.53937 。 [] 
  []
 
 
-Overfull \hbox (191.71754pt too wide) in paragraph at lines 250--250
+Overfull \hbox (191.71754pt too wide) in paragraph at lines 252--252
 [] \TU/FangSong(0)/m/n/10.53937 稀 疏 特 征 \TU/lmtt/m/n/10.53937 :  \TU/FangSong(0)/m/n/10.53937 使 用 了 稀 疏 特 征  \TU/lmtt/m/n/10.53937 (use_sparse_fea=True) \TU/FangSong(0)/m/n/10.53937 ， 并 使 用 了 指 定 的 稀 疏 编 码 器  \TU/lmtt/m/n/10.53937 (sparse_encoder='log') \TU/FangSong(0)/m/n/10.53937 。 [] 
  []
 
 
-Overfull \hbox (20.18927pt too wide) in paragraph at lines 250--250
+Overfull \hbox (20.18927pt too wide) in paragraph at lines 252--252
 [] \TU/FangSong(0)/m/n/10.53937 评 估 \TU/lmtt/m/n/10.53937 :  \TU/FangSong(0)/m/n/10.53937 进 行 了 多 次 评 估  \TU/lmtt/m/n/10.53937 (eval_times=1) \TU/FangSong(0)/m/n/10.53937 ， 在 指 定 的 间 隔  \TU/lmtt/m/n/10.53937 (eval_every=5) \TU/FangSong(0)/m/n/10.53937 。 [] 
  []
 
 
-Overfull \hbox (69.98788pt too wide) in paragraph at lines 267--267
+Overfull \hbox (69.98788pt too wide) in paragraph at lines 269--269
 [] \TU/FangSong(0)/m/n/10.53937 该 模 型 在 验 证 集 上 表 现 良 好 ， 平 均 验 证 分 数 约 为  \TU/lmtt/m/n/10.53937 0.9461 \TU/FangSong(0)/m/n/10.53937 ， 标 准 差 较 低 （ \TU/lmtt/m/n/10.53937 ± 0.0017 \TU/FangSong(0)/m/n/10.53937 ） 。 [] 
  []
 
 
-Overfull \hbox (81.05423pt too wide) in paragraph at lines 267--267
+Overfull \hbox (81.05423pt too wide) in paragraph at lines 269--269
 [] \TU/FangSong(0)/m/n/10.53937 在 测 试 集 上 的 性 能 也 是 合 理 的 ， 平 均 测 试 分 数 约 为  \TU/lmtt/m/n/10.53937 0.8904 \TU/FangSong(0)/m/n/10.53937 ， 标 准 差 较 低 （ \TU/lmtt/m/n/10.53937 ± 0.0011 \TU/FangSong(0)/m/n/10.53937 ） 。 [] 
  []
 
@@ -579,8 +580,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8635 strings out of 476683
- 241394 string characters out of 5807576
+ 8633 strings out of 476683
+ 241356 string characters out of 5807576
  1871012 words of memory out of 5000000
  28731 multiletter control sequences out of 15000+600000
  527222 words of font info for 118 fonts, out of 8000000 for 9000
