@@ -40,7 +40,22 @@
 在模型训练阶段，使用训练集对逻辑回归模型进行了训练。之后，对模型进行了评估，包括打印了混淆矩阵和分类报告。混淆矩阵展示了模型的预测结果和真实标签的对比，而分类报告包括了精确度、召回率和F1得分等指标，以及每个类别的支持数。
 \subsection{性能指标}
 
-模型在测试集上的性能指标如下：
+模型在测试集上的性能指标如下：\\
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|}
+    \hline
+    Metric & Precision & Recall & F1-Score & Support \\
+    \hline
+    Accuracy & 0.55 & - & - & 41782 \\
+    Macro Avg & 0.51 & 0.37 & 0.41 & 41782 \\
+    Weighted Avg & 0.54 & 0.55 & 0.52 & 41782 \\
+    \hline
+    \end{tabular}
+    \caption{模型性能评估}
+    \end{table}
+    
+    tips:"Accuracy" 表示准确率，"Macro Avg" 表示宏平均值，"Weighted Avg" 表示加权平均值。
 
 \begin{table}[h]
     \centering
@@ -94,6 +109,7 @@
     \end{tabular}
     \caption{分类报告}
 \end{table}
+
 
 
 混淆矩阵如下所示：
