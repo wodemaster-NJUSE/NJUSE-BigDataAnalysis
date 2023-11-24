@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#此版本不需要使用到src包
 import json
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -61,7 +62,7 @@ def evaluate_model(model, X_test_tfidf, y_test):
 
 if __name__ == '__main__':
     # 加载数据
-    data = load_data("your_news_data.json")  # 请替换为你的新闻分类数据文件路径
+    data = load_data(r"data\News_Category.json") #数据路径
     df = preprocess_data(data)
 
     # 分割数据

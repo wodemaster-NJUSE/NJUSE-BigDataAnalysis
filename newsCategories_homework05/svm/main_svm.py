@@ -7,7 +7,7 @@ from sklearn.svm import SVC
 from src.preprocess_svm import load_data
 class MyTextSVM():
     def __init__(self):
-        # 请根据你的实际数据路径进行修改
+      
         self.data = load_data(r'data\News_Category.json')
 
     def load_data(self, file_path):
