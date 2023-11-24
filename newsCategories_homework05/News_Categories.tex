@@ -1,15 +1,15 @@
 \documentclass{article}
 
-\usepackage{amsmath} % 用于数学公式
-\usepackage{graphicx} % 用于插入图片
-\usepackage{lipsum} % 用于生成虚拟文本
-\usepackage{ctex} % 导入 ctex 包以支持中文
-\usepackage{titlesec} % 导入 titlesec 包以定制标题样式
-\usepackage{fontspec} % 用于设置中文字体
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{ctex}
+\usepackage{titlesec}
+\usepackage{fontspec}
 
-\setmainfont{SimSun} % 设置中文字体，SimSun 为宋体的系统字体
+\setmainfont{SimSun}
 
-\title{新闻分类任务}
+\title{新闻分类任务报告}
 \author{程智镝}
 \date{\today}
 
@@ -17,11 +17,95 @@
 \maketitle
 
 \section*{作业任务}
-每条数据包含属性:category、headline、authors、link、short\_description、date,一共有42个分类。
+
+每条数据包含属性: \texttt{category, headline, authors, link, short\_description, date}，一共有42个分类。
+
 \begin{itemize}
-    \item 数据集描述
-    \item 数据处理流程
-    \item 分类模型选择，设计，训练，验证，测试
-    \item python、java实现
+    \item[a.] 数据集描述
+    \item[b.] 数据处理流程
+    \item[c.] 分类模型选择，设计，训练，验证，测试
+    \item[d.] 限python或java实现模型
 \end{itemize}
+
+\section{数据集描述}
+使用的数据集包含了新闻文章的各种属性，共有42个不同的分类。数据集中的内容包括headline（标题）、authors（作者）、link（链接）、short\_description（简介）、date（日期）等。经过数据处理，得到了训练集和测试集，并进行了统计分析。
+
+\section{数据处理流程}
+在数据处理阶段，对数据进行了清洗，包括处理缺失值等。然后将数据集分割为训练集和测试集，以便进行模型训练和测试。
+
+\section{分类模型选择及设计}
+在分类模型选择方面，选择了逻辑回归模型。使用了TF-IDF进行文本特征提取，并将提取出的特征作为逻辑回归模型的输入。使用Python中的Scikit-learn库来实现模型的训练、验证和测试。
+
+\section{模型训练和评估}
+在模型训练阶段，使用训练集对逻辑回归模型进行了训练。之后，对模型进行了评估，包括打印了混淆矩阵和分类报告。混淆矩阵展示了模型的预测结果和真实标签的对比，而分类报告包括了精确度、召回率和F1得分等指标，以及每个类别的支持数。
+\subsection{性能指标}
+
+模型在测试集上的性能指标如下：
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|}
+    \hline
+    Category & Precision & Recall & F1-Score & Support \\
+    \hline
+    ARTS & 0.34 & 0.13 & 0.19 & 324 \\
+    ARTS \& CULTURE & 0.34 & 0.09 & 0.15 & 288 \\
+    BLACK VOICES & 0.45 & 0.31 & 0.36 & 867 \\
+    BUSINESS & 0.47 & 0.42 & 0.44 & 1175 \\
+    COLLEGE & 0.54 & 0.27 & 0.36 & 234 \\
+    COMEDY & 0.56 & 0.39 & 0.46 & 1085 \\
+    CRIME & 0.50 & 0.52 & 0.51 & 695 \\
+    CULTURE \& ARTS & 0.74 & 0.24 & 0.37 & 218 \\
+    DIVORCE & 0.78 & 0.57 & 0.66 & 710 \\
+    EDUCATION & 0.41 & 0.21 & 0.28 & 191 \\
+    ENTERTAINMENT & 0.50 & 0.72 & 0.59 & 3417 \\
+    ENVIRONMENT & 0.53 & 0.16 & 0.25 & 270 \\
+    FIFTY & 0.49 & 0.12 & 0.19 & 296 \\
+    FOOD \& DRINK & 0.59 & 0.62 & 0.61 & 1313 \\
+    GOOD NEWS & 0.40 & 0.13 & 0.20 & 305 \\
+    GREEN & 0.35 & 0.26 & 0.30 & 504 \\
+    HEALTHY LIVING & 0.31 & 0.19 & 0.24 & 1295 \\
+    HOME \& LIVING & 0.69 & 0.64 & 0.66 & 891 \\
+    IMPACT & 0.38 & 0.20 & 0.27 & 674 \\
+    LATINO VOICES & 0.58 & 0.18 & 0.28 & 209 \\
+    MEDIA & 0.55 & 0.34 & 0.42 & 568 \\
+    MONEY & 0.49 & 0.26 & 0.34 & 368 \\
+    PARENTING & 0.49 & 0.56 & 0.52 & 1785 \\
+    PARENTS & 0.40 & 0.23 & 0.29 & 715 \\
+    POLITICS & 0.63 & 0.84 & 0.72 & 7045 \\
+    QUEER VOICES & 0.73 & 0.60 & 0.66 & 1259 \\
+    RELIGION & 0.57 & 0.40 & 0.47 & 502 \\
+    SCIENCE & 0.61 & 0.34 & 0.44 & 459 \\
+    SPORTS & 0.63 & 0.56 & 0.59 & 1018 \\
+    STYLE & 0.47 & 0.16 & 0.23 & 462 \\
+    STYLE \& BEAUTY & 0.66 & 0.74 & 0.70 & 1894 \\
+    TASTE & 0.38 & 0.12 & 0.18 & 421 \\
+    TECH & 0.58 & 0.35 & 0.44 & 458 \\
+    THE WORLDPOST & 0.48 & 0.36 & 0.41 & 765 \\
+    TRAVEL & 0.60 & 0.71 & 0.65 & 1970 \\
+    U.S. NEWS & 0.31 & 0.05 & 0.09 & 264 \\
+    WEDDINGS & 0.78 & 0.69 & 0.74 & 766 \\
+    WEIRD NEWS & 0.37 & 0.21 & 0.27 & 562 \\
+    WELLNESS & 0.45 & 0.71 & 0.55 & 3677 \\
+    WOMEN & 0.41 & 0.30 & 0.35 & 694 \\
+    WORLD NEWS & 0.44 & 0.29 & 0.35 & 673 \\
+    WORLDPOST & 0.46 & 0.20 & 0.28 & 496 \\
+    \hline
+    \end{tabular}
+    \caption{分类报告}
+\end{table}
+
+
+混淆矩阵如下所示：
+
+\[
+\begin{bmatrix}
+    43 & 15 & 7 & \ldots & 0 & 1 \\
+    15 & 27 & 6 & \ldots & 14 & 1 \\
+    \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+    0 & 1 & 3 & \ldots & 5 & 198 \\
+    0 & 0 & 4 & \ldots & 6 & 37 \\
+\end{bmatrix}
+\]
+
 \end{document}
